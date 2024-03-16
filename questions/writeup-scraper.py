@@ -46,10 +46,6 @@ async def handler(event):
         print(event.raw_text)
         time.sleep(2)
         await client.send_message("fah4rah5Ah_bot", '/start')
-    # else:
-    #     append_to_messages(str(last+1) + "," + "")
-    #     time.sleep(3)
-    #     await client.send_message("fah4rah5Ah_bot", '/start')
 
 if __name__ == '__main__':
     client.start()
