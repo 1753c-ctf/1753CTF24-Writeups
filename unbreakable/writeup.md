@@ -14,7 +14,7 @@ The challenge provides a C# code snippet that encrypts a flag using a one-time p
 3. Generate a random byte buffer (randomBuffer) of the same length as the flag.
 4. Convert the flag string to a byte array (flagBuffer).
 5. XOR each byte of the random buffer with the corresponding byte of the flag buffer.
-6. Convert the resulting byte array (resultBuffer) to a hexadecimal string (encrypted).
+6. Convert the resulting byte array (resultBuffer) to a hexadecimal string.
 
 The encrypted flag is then printed to the console.
 
