@@ -67,8 +67,7 @@ print(new_token)
 1. Split the token into the data and signature parts.
 1. Use `hashpumpy` to perform a hash extension attack on the token, appending a SQL injection payload to the data part.
 1. Construct a new token with the modified data and the new signature.
-1. Replace old token with a new token in your browser to get the flag
-1. There is a potential SQL Injection, but to exploit it user needs to control username stored in a signed token
+1. Replace old token with a new token in your browser to get the flag.
 
 Flag: `1753c{well_youve_just_found_a_zero_day_on_npm}`
 
