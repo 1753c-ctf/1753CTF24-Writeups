@@ -46,4 +46,3 @@ Content-Type: application/x-www-form-urlencoded
 
 1753{its_raining_maaaaaannn_!}
 ```
-Will give us the solution to this challenge
