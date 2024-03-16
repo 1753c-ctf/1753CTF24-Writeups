@@ -38,7 +38,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.71-b15, mixed mode)
 </dependencies>
 ```
 
-This log4j allows to execute Log4Shell attack, but the only pace the logger is used is in the exception that should never happen according to the documentation of `javax.imageio.ImageIO`.
+This log4j allows to execute Log4Shell attack, but the only place the logger is used is in the exception that should never happen according to the documentation of `javax.imageio.ImageIO`.
 
 Further investigation reveals that there is a known bug in the `javax.imageio.ImageIO` library for the specific Java version used in the challenge. The bug causes the library to throw undocumented exceptions other than `IOException` when processing corrupted PNG images.
 
